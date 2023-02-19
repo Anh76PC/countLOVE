@@ -4,7 +4,7 @@ music = ['myheart','betifulinwhite','mylove'];
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
 
-      document.querySelector("anni").textContent = "11-11-2022";
+      //document.querySelector("anni").textContent = "11-11-2022";
       
       document.querySelector("date").textContent = Math.floor( Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24)+" DAYS";
 
