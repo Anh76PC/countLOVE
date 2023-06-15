@@ -31,15 +31,12 @@ body {
 #wrapper {
   width: 90%;
   max-width: 600px;
+  text-align: center;
 }
 
 #clock-box,
 #info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   animation: heartbeat 1.5s infinite;
 }
 
@@ -57,19 +54,19 @@ body {
 
 #clock-box {
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 50px;
-  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 date {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 time {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 2px;
 }
 
@@ -102,28 +99,25 @@ footer {
   body {
     padding: 1rem;
   }
-  
-  #wrapper {
-    width: 100%;
-  }
-  
+
   #clock-box {
+    border-radius: 5px;
     padding: 1rem;
   }
-  
+
   date {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-  
+
   time {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-  
+
   .avt {
     width: 80px;
     height: 80px;
   }
-  
+
   footer {
     margin-top: 1rem;
   }
